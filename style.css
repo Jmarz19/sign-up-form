@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sidebar {
+  width: 30%;
+  background-image: url("leaves.jpg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+}
+
+.main-content p {
+  margin-bottom: 24px;
+}
+
+label {
+  display: block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 4px;
+  letter-spacing: 0.5px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.form-row > div {
+  flex: 1;
+}
+
+button[type="submit"] {
+  background-color: #4a7c59;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 3px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
